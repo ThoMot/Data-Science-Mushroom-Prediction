@@ -217,7 +217,7 @@ plt.xticks(size="12");
 ```
 
 
-![png](output_10_0.png)
+![png](resources/output_10_0.png)
 
 
 It is important to look into whether or not the dataset is imbalanced. If the data is imbalanced, one class has a lot more instances than the other. The best classifcation situation would be one where there are about equally as many instances of both classes.
@@ -235,7 +235,7 @@ plt.xticks(size="12");
 ```
 
 
-![png](output_12_0.png)
+![png](resources/output_12_0.png)
 
 
 
@@ -249,7 +249,7 @@ plt.xticks(size="12");
 ```
 
 
-![png](output_13_0.png)
+![png](resources/output_13_0.png)
 
 
 When looking at the subplots below, we can tell that some columns are very skewed towards one value. 
@@ -414,7 +414,7 @@ plt.subplots_adjust(hspace = 0.75)
 ```
 
 
-![png](output_20_0.png)
+![png](resources/output_20_0.png)
 
 
 ## Data Cleaning
@@ -604,7 +604,7 @@ plt.legend(['Test Data', 'Training Data']);
 ```
 
 
-![png](output_42_0.png)
+![png](resources/output_42_0.png)
 
 
 #### Conclusion Model 1
@@ -690,7 +690,7 @@ plt.title("Heatmap of features used in model 2");
 ```
 
 
-![png](output_52_0.png)
+![png](resources/output_52_0.png)
 
 
 Training our new model using the predictors found by feature selection
@@ -785,7 +785,7 @@ plt.legend(['Test Data', 'Training Data']);
 ```
 
 
-![png](output_63_0.png)
+![png](resources/output_63_0.png)
 
 
 #### Conclusion Model 2
@@ -860,7 +860,7 @@ plt.title("Heatmap of features used in model2");
 ```
 
 
-![png](output_74_0.png)
+![png](resources/output_74_0.png)
 
 
 #### Accuracy
@@ -943,7 +943,7 @@ plt.legend(['Test Data', 'Training Data']);
 ```
 
 
-![png](output_83_0.png)
+![png](resources/output_83_0.png)
 
 
 #### Conclusion Model 3: 
@@ -991,7 +991,7 @@ graph
 
 
 
-![svg](output_91_0.svg)
+![svg](resources/output_91_0.svg)
 
 
 
@@ -1076,7 +1076,7 @@ plt.legend(['Test Data', 'Training Data']);
 ```
 
 
-![png](output_100_0.png)
+![png](resources/output_100_0.png)
 
 
 #### Conclusion Model 5: 
@@ -1178,7 +1178,7 @@ graph
 
 
 
-![svg](output_111_0.svg)
+![svg](resources/output_111_0.svg)
 
 
 
@@ -1237,7 +1237,7 @@ precisionRecallCurve(y_probs, y_test)
 ```
 
 
-![png](output_119_0.png)
+![png](resources/output_119_0.png)
 
 
 #### ROC curve
@@ -1259,7 +1259,7 @@ print('AUC: %.2f' % auc)
 ```
 
 
-![png](output_121_0.png)
+![png](resources/output_121_0.png)
 
 
     AUC: 0.99
@@ -1301,7 +1301,7 @@ plt.legend(['Test Data', 'Training Data']);
 ```
 
 
-![png](output_125_0.png)
+![png](resources/output_125_0.png)
 
 
 #### Feature Importance
@@ -1318,7 +1318,7 @@ plt.ylabel("Features", size=15);
 ```
 
 
-![png](output_127_0.png)
+![png](resources/output_127_0.png)
 
 
 #### Conclusion Model 5: 
@@ -1404,7 +1404,7 @@ precisionRecallCurve(y_probs, y_test)
 ```
 
 
-![png](output_140_0.png)
+![png](resources/output_140_0.png)
 
 
 #### ROC curve
@@ -1427,7 +1427,7 @@ print('AUC: %.2f' % auc)
 ```
 
 
-![png](output_142_0.png)
+![png](resources/output_142_0.png)
 
 
     AUC: 1.00
@@ -1469,7 +1469,7 @@ plt.legend(['Test Data', 'Training Data']);
 ```
 
 
-![png](output_145_0.png)
+![png](resources/output_145_0.png)
 
 
 #### Conclusion Model 6: 
@@ -1617,7 +1617,7 @@ print('AUC: %.2f' % auc)
 ```
 
 
-![png](output_164_0.png)
+![png](resources/output_164_0.png)
 
 
     AUC: 0.99
@@ -1659,7 +1659,7 @@ plt.legend(['Test Data', 'Training Data']);
 ```
 
 
-![png](output_167_0.png)
+![png](resources/output_167_0.png)
 
 
 #### Conclusion Model 7
