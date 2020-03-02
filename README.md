@@ -1,47 +1,18 @@
 
+### Info:
+This is a project completed as part of the Intro To Data Science course at CSUMB, fall 2019.
+The project report showcases several different prediction models and how they can be used to predict if a mushroom is poisonous or not, using different predictors.
+As part of the project the data has been cleaned and preprocessed before it is used. 
+
+**Contributors:** 
+- <a href="https://github.com/ThoMot">ThoMot - Thora Mothes</a>
+- <a href="https://github.com/Certinax">Certinax - Mathias Ahrn</a>
+
+
 # What is the danger of shrooming? 
 
 - **Thora Mothes**
 - **Mathias Ahrn**
-
-
-```python
-# code in this cell from: 
-# https://stackoverflow.com/questions/27934885/how-to-hide-code-from-cells-in-ipython-notebook-visualized-with-nbviewer
-from IPython.display import HTML
-HTML('''<script>
-code_show=true; 
-function code_toggle() {
- if (code_show){
- $('div.input').hide();
- } else {
- $('div.input').show();
- }
- code_show = !code_show
-} 
-$( document ).ready(code_toggle);
-</script>
-<form action="javascript:code_toggle()"><input type="submit" value="Click here to display/hide the code."></form>''')
-```
-
-
-
-
-<script>
-code_show=true; 
-function code_toggle() {
- if (code_show){
- $('div.input').hide();
- } else {
- $('div.input').show();
- }
- code_show = !code_show
-} 
-$( document ).ready(code_toggle);
-</script>
-<form action="javascript:code_toggle()"><input type="submit" value="Click here to display/hide the code."></form>
-
-
 
 ## Introduction:
 
